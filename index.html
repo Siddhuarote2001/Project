@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Video Transcript Summarizer</title>
+</head>
+<body>
+    <!--Higher level wrapper-->
+    <div id="wrapper">
+        <!--Higher level container-->
+        <div class="container">
+         <!--Navbar container-->
+         <div class="navbar">
+            <div class="logo-container">
+                <img src="./images/userAsset/letter-s.png" class="logo">
+                <div class="logo-text">ummarizer</div>
+            </div>
+            <div class="nav-items">
+                <div><a href="#summarize">Summarize Video</a></div>
+                <div><a href="#aboutus">About Us</a></div>
+                <div><a href="#contactus">Contact us</a></div>
+            </div>
+        </div>
+
+        <!--Hero section-->
+        <div class="hero-section">
+
+            <div class=" absolute faded-text">Summarizer</div>
+            <!--Hero section left-->
+            <div class="hero-section-left">
+                <div class="hero-section-heading">Hello! User</div>
+                
+                <div class="hero-section-heading hero-section-sub-heading">
+                    We  <span class="role"></span>
+                </div>
+
+                <div class="hero-section-description">
+                    Automated Video Transcript Summarizer helps you summarize your video and generate transcript summary. 
+                    Make your life easy by using the AVTS project!!.
+                </div>
+
+                <div class="btn-pink btnhero" id="btn">TRY IT<i class="fa-solid fa-wand-magic-sparkles"></i></div>
+
+            </div>
+            <!--Hero section right-->
+            <div class="hero-section-right">
+                <div class="absolute icons icon-dots">
+                    <img src="./images/userAsset/dots.png" alt="">
+                </div>
+
+                <div class="absolute icons icon-cube">
+                    <img src="./images/userAsset/cube.png" alt="">
+                </div>
+
+                <div class="absolute icons icon-circle">
+                    <img src="./images/userAsset/circle.png" alt="">
+                </div>
+
+                <div class="absolute icons icon-zigzag">
+                    <img src="./images/userAsset/zigzags.png" alt="">
+                </div>
+
+                <div class="absolute icons icon-plus">
+                    <img src="./images/userAsset/plus.png" alt="">
+                </div>
+
+                <div class="user-image">
+                    <img src="./images/userAsset/HeroImage.png" alt="">
+                </div>
+            </div>
+            
+        </div>
+        
+
+        
+    </div>
+    
+
+
+
+    <!--About summarizer section-->
+    <div class="skills-container container" id="aboutus">
+
+        <div class="skills-fade-text">AVTS</div>
+
+        <div class="skill-container-left">
+            <h2 class="skill-heading">
+                <span class="caps">A</span>utomated 
+                <br>
+                Video 
+                <br>
+                Transcript
+                <br>
+                Summarizer
+            </h2>
+
+            <div class="skill-subHeading">
+
+                <p>
+                    Welcome to AVTS (Automated Video Transcript Summarizer), your ultimate
+                    tool for efficient video content consumption! AVTS allows you to input 
+                    a video file or the URL of a YouTube video to generate concise summaries,
+                    saving you precious time. Our application supports multi-lingual videos 
+                    and offers the unique feature of translating summaries into various Indian 
+                    languages. Experience the power of automated summarization and translation,
+                    making content accessible and comprehensible in just a few clicks.
+                    Dive into AVTS and transform the way you engage with video content!
+                </p>
+                
+
+                <p>
+                    
+                </p>
+                
+                <p>
+                  
+                </p>
+            </div>
+        </div>
+
+        <div class="skill-container-right">
+
+            <img src="./images/userAsset/blob vector.png" class="blob-style">
+
+            <img src="./images/stack/HTML.png" alt="" class="skills-logo">
+            <img src="./images/stack/operational-system.png" alt="" class="skills-logo">
+            <img src="./images/stack/analytics.png" alt="" class="skills-logo">
+            <img src="./images/stack/File.png" alt="" class="skills-logo">
+            <img src="./images/stack/css-file.png" alt="" class="skills-logo">
+            <img src="./images/stack/api (1).png" alt="" class="skills-logo">
+            <img src="./images/stack/nlp (1).png" alt="" class="skills-logo">
+            <img src="./images/stack/business.png" alt="" class="skills-logo">
+            <img src="./images/stack/text.png" alt="" class="skills-logo">
+            <img src="./images/stack/js-file.png" alt="" class="skills-logo">
+            <img src="./images/stack/natural-language-processing (1).png" alt="" class="skills-logo">
+            <img src="./images/stack/processing.png" alt="" class="skills-logo">
+            <img src="./images/stack/subtitle.png" alt="" class="skills-logo">
+            <img src="./images/stack/report.png" alt="" class="skills-logo">
+            <img src="./images/stack/youtube (1).png" alt="" class="skills-logo">
+            <img src="./images/stack/text-to-speech.png" alt="" class="skills-logo">
+            <img src="./images/stack/language.png" alt="" class="skills-logo">
+            <img src="./images/stack/tool.png" alt="" class="skills-logo">
+            <img src="./images/stack/translate.png" alt="" class="skills-logo">
+            <img src="./images/stack/api.png" alt="" class="skills-logo">
+        </div>
+    </div>
+
+    <!--Summarize video usign URL-->
+    <div class="contactus-form-container" id="summarize">
+        <div class="container">
+
+            <h1 class="contactus-heading">Generate Summary</h1>
+            
+            <h3 class="contactus-subHeading">
+                Enter the video URL to generate summary.
+            </h3>
+
+            <div class="contactus-form-container">
+                <form class="form" action="">
+                <div class="formfields-container">
+                    <input type="text"
+                    class="formfield"
+                    name="name"
+                    id="video-url"
+                    placeholder="Enter video URL"/>
+
+                    
+
+                    <textarea name="message"
+                    class="formfield formfield-textarea"
+                     id="summary-text" cols="30" 
+                     rows="20"
+                     placeholder="Summary will be displayed here"
+                     disabled></textarea>
+                    
+                    
+
+                </div>
+                <!--translate options-->
+                <div class="translate-option">
+                    <div class="select">
+                        <select disabled id="language-select">
+                          
+                        </select>
+                      </div>
+
+                      <div>
+                        <button type="button" class="btn-pink" id="translate-btn" disabled >
+                            Translate <i class="fa-solid fa-square-check" ></i>
+                      </div>
+                      <div>
+                        <button type="button" class="btn-pink" style="font-size:24px" id = "read-btn"disabled>Read Aloud  <i class="fa fa-microphone"></i></button>
+                      </div>
+                </div>
+
+                <!--translation textarea-->
+                <div>
+                    <textarea name="message"
+                    class="formfield formfield-textarea"
+                     id="translation-text" cols="30" 
+                     rows="20"
+                     placeholder="Translation  will be displayed here"
+                     disabled hidden></textarea>
+                </div>
+
+
+                
+
+                <div>
+                    <button type="button" class="btn-pink" id="submit-btn">
+                        Summarize <i class="fa-solid fa-square-check" ></i>
+                    </button>
+                </div>
+            </form>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--seperater-->
+    <hr width="100%" color="black" size="5px" />
+
+
+    <!--Summarize video usign MP4-->
+    <div class="contactus-form-container" id="contactme">
+        <div class="container">
+
+            <h1 class="contactus-heading">Generate Summary</h1>
+
+            
+            <h3 class="contactus-subHeading">
+               Enter the MP4 video to generate summary.
+            </h3>
+
+            <div class="contactus-form-container">
+                <form class="form" action="">
+                <div class="formfields-container">
+                    <div style="border:thin">
+                        <label for="file">Choose file to upload</label>
+                        <input type="file" id="video-file" class=" video" name="name" accept="video/*"  />
+                    </div>
+
+                    
+
+                    <textarea name="message"
+                    class="formfield formfield-textarea"
+                     id="summary-text2" cols="30" 
+                     rows="20"
+                     placeholder="Summary will be displayed here"></textarea>
+                    
+                    
+
+                </div>
+
+                 <!--translate options-->
+                 <div class="translate-option">
+                    <div class="select">
+                        <select disabled id="language-select2">
+                          
+                        </select>
+                      </div>
+
+                      <div>
+                        <button type="button" class="btn-pink" id="translate-btn2" disabled >
+                            Translate <i class="fa-solid fa-square-check" ></i>
+                      </div>
+                </div>
+
+                <!--translation textarea-->
+                <div>
+                    <textarea name="message"
+                    class="formfield formfield-textarea"
+                     id="translation-text2" cols="30" 
+                     rows="20"
+                     placeholder="Translation  will be displayed here"
+                     disabled hidden></textarea>
+                </div>
+
+                <div>
+                    <button type="button" class="btn-pink" id="submit-btn2" >
+                        Summarize <i class="fa-solid fa-square-check" ></i>
+                    </button>
+                </div>
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--footer section-->
+    <footer>
+        <div class="container " id="contactus">
+            <div class="footer-wrapper">
+                <div class="footer-faded-text"></div>
+
+                <div class="link-wrapper">
+
+                    <div>
+                        <a href="#summarize"> Summarize Video</a>
+                    </div>
+
+                    <div>
+                        <a href="#aboutus"> About Us</a>
+                    </div>
+
+                    <div>
+                        <a href="#contactus"> Contact Us</a>
+                    </div>
+
+                </div>
+
+                <div class="icon-wrapper">
+
+                    <i class="fa-brands fa-linkedin icon"></i>
+                    <i class="fa-brands fa-github icon"></i>
+                    <i class="fa-brands fa-twitter icon"></i>
+                    <i class="fa-brands fa-instagram icon"></i>
+                    <i class="fa-brands fa-envelope icon"></i>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+        
+        </div>
+    </div>
+
+
+    <!--JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  <script>
+    var typeData = new Typed(".role", {
+      strings: [
+        "Summarize Your Videos!",
+        "Make Your Life Easy!",
+        "Help You Learn!",
+        "Save Your Time!"
+        
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+  </script>
+
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
